@@ -1,6 +1,6 @@
 ### **README.md**
 
-```markdown
+
 # Geometric Calculations Library
 
 ## Общее описание
@@ -15,7 +15,6 @@
   ```python
   from circle import area
   result = area(5)  # 78.53981633974483
-  ```
   
 - **`perimeter(r: float) -> float`**  
   Вычисляет длину окружности (периметр круга) по заданному радиусу.  
