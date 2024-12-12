@@ -1,6 +1,6 @@
 import unittest
 import math
-from ..triangle import area, perimeter
+from ..geometric_lib.triangle import area, perimeter
 
 class TriangleTestCase(unittest.TestCase):
     """Тесты для функций расчета площади и периметра треугольника."""

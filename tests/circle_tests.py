@@ -1,6 +1,6 @@
 import unittest
 import math
-from ..circle import area, perimeter  # Относительный импорт
+from ..geometric_lib.circle import area, perimeter  # Относительный импорт
 
 class CircleTestCase(unittest.TestCase):
     """Тесты для функций расчета площади и периметра круга."""
