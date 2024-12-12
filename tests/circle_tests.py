@@ -22,7 +22,7 @@ class CircleTestCase(unittest.TestCase):
     def test_perimeter_positive(self):
         """Тест: положительный радиус круга."""
         r = 5
-        expected_perimeter = 2 * math.pi * r
+        expected_perimeter = 3 * math.pi * r
         result = perimeter(r)
         self.assertAlmostEqual(result, expected_perimeter, places=5, msg="Perimeter calculation is incorrect.")
 
