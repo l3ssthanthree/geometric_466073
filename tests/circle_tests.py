@@ -1,12 +1,6 @@
-import sys
-import os
 import unittest
 import math
-
-# Добавляем путь к модулю circle.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'C:/Users/lucky/geometric_lib_466073')))
-
-from circle import area, perimeter
+from ..circle import area, perimeter  # Относительный импорт
 
 class CircleTestCase(unittest.TestCase):
     """Тесты для функций расчета площади и периметра круга."""
