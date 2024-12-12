@@ -1,5 +1,5 @@
 import unittest
-from ..square import area, perimeter
+from geometric_lib.square import area, perimeter
 
 class SquareTestCase(unittest.TestCase):
     """Тесты для функций расчета площади и периметра квадрата."""
