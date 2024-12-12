@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run tests
-        run: python -m unittest discover tests
+        run: python -m unittest tests/triangle_tests.py tests/rectangle_tests.py tests/circle_tests.py tests/square_tests.py
 
   test-windows:
     runs-on: windows-latest
