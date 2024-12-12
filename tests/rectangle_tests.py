@@ -1,11 +1,5 @@
-import sys
-import os
 import unittest
-
-# Добавляем путь к модулю rectangle.
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'C:/Users/lucky/geometric_lib_466073')))
-
-from rectangle import area, perimeter
+from ..rectangle import area, perimeter
 
 class RectangleTestCase(unittest.TestCase):
     """Тесты для функций расчета площади и периметра прямоугольника."""
